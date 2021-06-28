@@ -2,10 +2,10 @@ package it.polito.tdp.imdb.model;
 
 public class Actor
 {
-	private Integer id;
-	private String firstName;
-	private String lastName;
-	private String gender;
+	private final Integer id;
+	private final String firstName;
+	private final String lastName;
+	private final String gender;
 	
 	
 	public Actor(Integer id, String firstName, String lastName, String gender) 
