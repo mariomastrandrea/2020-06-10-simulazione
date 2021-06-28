@@ -10,8 +10,8 @@ import it.polito.tdp.imdb.model.Actor;
 import it.polito.tdp.imdb.model.Director;
 import it.polito.tdp.imdb.model.Movie;
 
-public class ImdbDAO {
-	
+public class ImdbDAO 
+{	
 	public List<Actor> listAllActors(){
 		String sql = "SELECT * FROM actors";
 		List<Actor> result = new ArrayList<Actor>();
@@ -83,10 +83,5 @@ public class ImdbDAO {
 			return null;
 		}
 	}
-	
-	
-	
-	
-	
 	
 }
